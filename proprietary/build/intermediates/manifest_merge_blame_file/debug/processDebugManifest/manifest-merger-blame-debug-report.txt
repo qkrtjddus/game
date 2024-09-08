@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.lucasnlm.antimine.proprietary" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:3:5-67
+7-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:3:22-64
+8    <uses-permission android:name="android.permission.WAKE_LOCK" />
+8-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:4:5-68
+8-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:4:22-65
+9    <uses-permission android:name="com.android.vending.BILLING" />
+9-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:5:5-67
+9-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:6:5-79
+10-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+11-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:7:5-78
+11-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:7:22-76
+12
+13    <application>
+13-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:9:5-22:19
+14        <meta-data
+14-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:10:9-12:42
+15            android:name="com.bugsnag.android.API_KEY"
+15-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:11:13-55
+16            android:value="BUGSNAP-KEY" />
+16-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:12:13-40
+17        <meta-data
+17-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:13:9-15:46
+18            android:name="com.google.android.gms.games.APP_ID"
+18-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:14:13-63
+19            android:value="@string/app_id" />
+19-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:15:13-43
+20        <meta-data
+20-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:16:9-18:69
+21            android:name="com.google.android.gms.version"
+21-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:17:13-58
+22            android:value="@integer/google_play_services_version" />
+22-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:18:13-66
+23        <meta-data
+23-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:19:9-21:70
+24            android:name="com.google.android.gms.ads.APPLICATION_ID"
+24-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:20:13-69
+25            android:value="ca-app-pub-3940256099942544~3347511713" />
+25-->C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:21:13-67
+26    </application>
+27
+28</manifest>

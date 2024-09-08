@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.lucasnlm.antimine.tutorial" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <application>
+        <activity
+            android:name="dev.lucasnlm.antimine.tutorial.TutorialActivity"
+            android:label="@string/themes"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

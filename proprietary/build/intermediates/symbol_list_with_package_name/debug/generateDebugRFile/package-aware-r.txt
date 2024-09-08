@@ -1,0 +1,2 @@
+dev.lucasnlm.antimine.proprietary
+string app_id

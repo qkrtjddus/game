@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/about" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/audio" />
+            <option value="$PROJECT_DIR$/audio-low" />
+            <option value="$PROJECT_DIR$/auto" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/control" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/donation" />
+            <option value="$PROJECT_DIR$/external" />
+            <option value="$PROJECT_DIR$/foss" />
+            <option value="$PROJECT_DIR$/gdx" />
+            <option value="$PROJECT_DIR$/i18n" />
+            <option value="$PROJECT_DIR$/instant" />
+            <option value="$PROJECT_DIR$/preferences" />
+            <option value="$PROJECT_DIR$/proprietary" />
+            <option value="$PROJECT_DIR$/sgtatham" />
+            <option value="$PROJECT_DIR$/themes" />
+            <option value="$PROJECT_DIR$/tutorial" />
+            <option value="$PROJECT_DIR$/ui" />
+            <option value="$PROJECT_DIR$/utils" />
+            <option value="$PROJECT_DIR$/wear" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

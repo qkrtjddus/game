@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\.cxx\\Debug\\283h2y5e\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\.cxx\\Debug\\283h2y5e\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "sgtatham::@6890427a1f51a3e7e1df": {
+      "artifactName": "sgtatham",
+      "abi": "x86_64",
+      "output": "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\build\\intermediates\\cxx\\Debug\\283h2y5e\\obj\\x86_64\\libsgtatham.so",
+      "runtimeFiles": []
+    }
+  }
+}

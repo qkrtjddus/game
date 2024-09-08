@@ -1,0 +1,62 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:1:1-23:12
+	package
+		INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:4:22-65
+uses-permission#com.android.vending.BILLING
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:6:22-76
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:7:22-76
+application
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:9:5-22:19
+meta-data#com.bugsnag.android.API_KEY
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:10:9-12:42
+	android:value
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:12:13-40
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:11:13-55
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:13:9-15:46
+	android:value
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:14:13-63
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:16:9-18:69
+	android:value
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:17:13-58
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:19:9-21:70
+	android:value
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:21:13-67
+	android:name
+		ADDED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml:20:13-69
+uses-sdk
+INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\aqi65\StudioProjects\antimine-android\proprietary\src\main\AndroidManifest.xml

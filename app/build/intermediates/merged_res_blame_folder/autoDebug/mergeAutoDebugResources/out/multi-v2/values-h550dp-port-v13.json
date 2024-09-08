@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-57:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aqi65\\.gradle\\caches\\transforms-4\\58a857e203dea60ebd2830cab309f634\\transformed\\material-1.12.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

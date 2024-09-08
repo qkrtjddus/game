@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/arm64-v8a",
+  "command": "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/aqi65/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsgtatham_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -Ofast -g0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sgtatham.dir\\tree234.cpp.o -c C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\tree234.cpp",
+  "file": "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\tree234.cpp"
+},
+{
+  "directory": "C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/arm64-v8a",
+  "command": "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/aqi65/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsgtatham_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -Ofast -g0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sgtatham.dir\\random_generator.cpp.o -c C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\random_generator.cpp",
+  "file": "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\random_generator.cpp"
+},
+{
+  "directory": "C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/arm64-v8a",
+  "command": "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/aqi65/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsgtatham_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -Ofast -g0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sgtatham.dir\\minefield_creator.cpp.o -c C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\minefield_creator.cpp",
+  "file": "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\minefield_creator.cpp"
+},
+{
+  "directory": "C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/arm64-v8a",
+  "command": "C:\\Users\\aqi65\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/aqi65/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsgtatham_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -Ofast -g0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sgtatham.dir\\sgtatham.cpp.o -c C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\sgtatham.cpp",
+  "file": "C:\\Users\\aqi65\\StudioProjects\\antimine-android\\sgtatham\\src\\main\\cpp\\sgtatham.cpp"
+}
+]

@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.lucasnlm.antimine.about" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <application>
+7-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:4:5-14:19
+8        <activity
+8-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:5:9-8:47
+9            android:name="dev.lucasnlm.antimine.about.AboutActivity"
+9-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:6:13-69
+10            android:label="@string/about"
+10-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:7:13-42
+11            android:theme="@style/AppTheme" />
+11-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:8:13-44
+12        <activity
+12-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:10:9-13:47
+13            android:name="dev.lucasnlm.antimine.licenses.LicenseActivity"
+13-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:11:13-74
+14            android:label="@string/licenses"
+14-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:12:13-45
+15            android:theme="@style/AppTheme" />
+15-->C:\Users\aqi65\StudioProjects\antimine-android\about\src\main\AndroidManifest.xml:13:13-44
+16    </application>
+17
+18</manifest>

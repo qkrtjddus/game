@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/fragment_history.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/view_play_games_button.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_play_games_button.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_localization.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_localization.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/game_over_dialog.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/game_over_dialog.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_preferences.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/hex_banner.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/hex_banner.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_game.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_game.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/view_localization_item.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_localization_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/view_stats_item.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_stats_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/donation_request.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/donation_request.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_main.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_history.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_history.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/view_history_item.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_history_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/music_link.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/music_link.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/activity_stats.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/dialog_custom_game.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/dialog_custom_game.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-mergeAutoDebugResources-58:/layout/win_dialog.xml",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/win_dialog.xml"
+    }
+]

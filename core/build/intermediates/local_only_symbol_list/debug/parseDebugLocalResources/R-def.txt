@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+dimen field_padding
+dimen field_radius
+dimen field_size
+dimen highlight_stroke
+dimen mark_padding
+dimen mine_padding
+dimen root_horizontal_spacing
+dimen root_vertical_spacing
+dimen text_size

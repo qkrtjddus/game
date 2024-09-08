@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable asdfsfd
+drawable open_in_new
+drawable title
+id app_name
+id buttons
+id content
+id icon
+id instant
+id licenses
+id logo
+id musicBy
+id musicCard
+id sourceCode
+id third_name
+id thirdsParties
+id toolbar
+id translation
+id version
+id version_layout
+layout activity_container
+layout fragment_about_info
+layout fragment_licenses
+layout view_third_party

@@ -1,0 +1,21 @@
+dev.lucasnlm.antimine.themes
+dimen theme_divider
+drawable delete
+drawable lock
+drawable movie
+drawable undo
+id cardSkin
+id cardTheme
+id covered
+id label
+id skinImage
+id skins
+id skinsCard
+id themes
+id themesCard
+id toolbar
+id uncovered
+id unlockAll
+layout activity_theme
+layout view_skin
+layout view_theme

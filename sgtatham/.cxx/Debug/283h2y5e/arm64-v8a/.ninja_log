@@ -1,0 +1,6 @@
+# ninja log v5
+0	1599	7426572716266112	CMakeFiles/sgtatham.dir/random_generator.cpp.o	a783ab5a881c2585
+4	1711	7426572717544545	CMakeFiles/sgtatham.dir/tree234.cpp.o	79588ae4d6e33e12
+11	1718	7426572717629676	CMakeFiles/sgtatham.dir/minefield_creator.cpp.o	6d911c657a211147
+8	2400	7426572724402057	CMakeFiles/sgtatham.dir/sgtatham.cpp.o	5a073f6d8068b872
+2400	6822	7426572764108466	C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/build/intermediates/cxx/Debug/283h2y5e/obj/arm64-v8a/libsgtatham.so	56efa036ed4b71ae

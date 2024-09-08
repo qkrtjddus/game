@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_cowboy_hat_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_cowboy_hat_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_astonished_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_astonished_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/xml_file_paths.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/xml/file_paths.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_bomb.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_bomb.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_export_file.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/export_file.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_import_file.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/import_file.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_dialog_custom_game.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/dialog_custom_game.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_confounded_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_confounded_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/xml_backup.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/xml/backup.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_custom.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/custom.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_retry.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/retry.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_exploding_head.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_exploding_head.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_arrow_left.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/arrow_left.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_hugging_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_hugging_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_face_with_head_bandage.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_face_with_head_bandage.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_partying_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_partying_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_disguised_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_disguised_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_game.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_game.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_settings.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/settings.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_crying_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_crying_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_collision.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_collision.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_grinning_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_grinning_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_history.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_history.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_view_localization_item.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_localization_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_clapping_hands.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_clapping_hands.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_grinning_squinting_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_grinning_squinting_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_downcast_face_with_sweat.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_downcast_face_with_sweat.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_play.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/play.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_anguished_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_anguished_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_beaming_face_with_smiling_eyes.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_beaming_face_with_smiling_eyes.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_face_with_tongue.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_face_with_tongue.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_delete.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/delete.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_hex_banner.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/hex_banner.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_game_over_dialog.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/game_over_dialog.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_themes.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/themes.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_donation_request.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/donation_request.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_music_link.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/music_link.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_info.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/info.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_hint.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/hint.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_games_controller.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/games_controller.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_remove_ads.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/remove_ads.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/anim_fast_shake.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/anim/fast_shake.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/xml_data_extraction_rules.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_replay.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/replay.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_dizzy_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_dizzy_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_main.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_disappointed_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_disappointed_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_sad_but_relieved_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_sad_but_relieved_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_view.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/view.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_old_games.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/old_games.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_fragment_history.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_translate.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/translate.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_view_play_games_button.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_play_games_button.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_view_history_item.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_history_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_preferences.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_triangular_flag.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_triangular_flag.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_view_stats_item.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/view_stats_item.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/xml_automotive_app_desc.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_hex_banner.webp.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/hex_banner.webp"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_tutorial.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/tutorial.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_new_icon.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/new_icon.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_money.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/money.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_stats.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_games_leaderboards.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/games_leaderboards.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout-land_activity_game.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout-land/activity_game.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_grimacing_face.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_grimacing_face.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_progressive.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/progressive.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_music.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/music.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_close.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/close.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_round_background.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/round_background.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_games_achievements.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/games_achievements.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_smiling_face_with_sunglasses.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_smiling_face_with_sunglasses.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_more.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/more.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_controls.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/controls.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_movie.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/movie.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_fixed_size.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/fixed_size.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_stats.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/stats.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_heart.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/heart.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_activity_localization.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/activity_localization.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_emoji_squinting_face_with_tongue.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/emoji_squinting_face_with_tongue.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/drawable_watch_ads_icon.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/drawable/watch_ads_icon.xml"
+    },
+    {
+        "merged": "dev.lucasnlm.antimine.app-autoDebug-59:/layout_win_dialog.xml.flat",
+        "source": "dev.lucasnlm.antimine.app-main-63:/layout/win_dialog.xml"
+    }
+]

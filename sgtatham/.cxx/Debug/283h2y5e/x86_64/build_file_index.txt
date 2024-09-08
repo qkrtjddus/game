@@ -1,0 +1,1 @@
+C:\Users\aqi65\StudioProjects\antimine-android\sgtatham\src\main\cpp\CMakeLists.txt

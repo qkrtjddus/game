@@ -1,0 +1,18 @@
+dev.lucasnlm.antimine.common
+color shortcut_four
+color shortcut_one
+color shortcut_three
+color shortcut_two
+drawable close
+drawable ic_launcher_foreground
+drawable timer
+drawable touch
+mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_round
+mipmap shortcut_four
+mipmap shortcut_one
+mipmap shortcut_three
+mipmap shortcut_two
+raw mine_explosion_sound
+xml language_preferences

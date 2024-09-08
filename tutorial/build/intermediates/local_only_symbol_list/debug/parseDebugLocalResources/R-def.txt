@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+drawable tutorial_example_1
+drawable tutorial_example_2
+drawable tutorial_example_3
+drawable tutorial_example_4
+id basic
+id image
+id image2
+id image3
+id image4
+id playGame
+id scrollView
+id text1
+id text2
+id text3
+id text4
+id toolbar
+layout tutorial_activity

@@ -1,0 +1,3 @@
+C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/x86/CMakeFiles/sgtatham.dir
+C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/x86/CMakeFiles/edit_cache.dir
+C:/Users/aqi65/StudioProjects/antimine-android/sgtatham/.cxx/Debug/283h2y5e/x86/CMakeFiles/rebuild_cache.dir

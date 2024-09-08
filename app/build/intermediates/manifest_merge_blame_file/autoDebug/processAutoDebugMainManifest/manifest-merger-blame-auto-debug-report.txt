@@ -1,0 +1,856 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="dev.lucasnlm.antimine"
+5    android:installLocation="auto"
+6    android:versionCode="1707001"
+7    android:versionName="17.7.0 C" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="21"
+11        android:targetSdkVersion="35" />
+12
+13    <supports-screens
+13-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:7:5-13:40
+14        android:anyDensity="true"
+14-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:8:9-34
+15        android:largeScreens="true"
+15-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:9:9-36
+16        android:normalScreens="true"
+16-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:10:9-37
+17        android:resizeable="true"
+17-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:11:9-34
+18        android:smallScreens="true"
+18-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:12:9-36
+19        android:xlargeScreens="true" />
+19-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:13:9-37
+20
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:19:5-66
+21-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:19:22-63
+22
+23    <uses-feature
+23-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:21:5-23:35
+24        android:glEsVersion="0x00020000"
+24-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:22:9-41
+25        android:required="true" />
+25-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:23:9-32
+26    <uses-feature
+26-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:25:5-27:36
+27        android:name="android.hardware.touchscreen"
+27-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:26:9-52
+28        android:required="false" />
+28-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:27:9-33
+29    <uses-feature
+29-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:29:5-31:36
+30        android:name="android.hardware.faketouch"
+30-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:30:9-50
+31        android:required="false" />
+31-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:31:9-33
+32
+33    <dist:module dist:instant="true" />
+33-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:33:5-40
+33-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:33:18-37
+34
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-67
+35-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-64
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-68
+36-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:22-65
+37    <uses-permission android:name="com.android.vending.BILLING" />
+37-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-67
+37-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:22-64
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-79
+38-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:22-76
+39    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+39-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:5-79
+39-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:22-76
+40
+41    <uses-feature
+41-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-9:35
+42        android:name="android.hardware.type.automotive"
+42-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-56
+43        android:required="true" />
+43-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-32
+44    <uses-feature
+44-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-12:36
+45        android:name="android.hardware.wifi"
+45-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-45
+46        android:required="false" />
+46-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-33
+47    <uses-feature
+47-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:5-15:36
+48        android:name="android.hardware.screen.portrait"
+48-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:9-56
+49        android:required="false" />
+49-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:9-33
+50    <uses-feature
+50-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:5-18:36
+51        android:name="android.hardware.screen.landscape"
+51-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:9-57
+52        android:required="false" />
+52-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:9-33
+53    <uses-feature
+53-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:5-21:36
+54        android:name="android.hardware.gamepad"
+54-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:9-48
+55        android:required="false" />
+55-->[:auto] C:\Users\aqi65\StudioProjects\antimine-android\auto\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:9-33
+56
+57    <queries>
+57-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:12:5-16:15
+58        <intent>
+58-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:13:9-15:18
+59            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+59-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:14:13-91
+59-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:14:21-88
+60        </intent>
+61        <!-- For browser content -->
+62        <intent>
+62-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:38:9-44:18
+63            <action android:name="android.intent.action.VIEW" />
+63-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:76:17-69
+63-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:76:25-66
+64
+65            <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:41:13-74
+65-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:41:23-71
+66
+67            <data android:scheme="https" />
+67-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:78:17-81:49
+67-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:79:21-41
+68        </intent> <!-- End of browser content -->
+69        <!-- For CustomTabsService -->
+70        <intent>
+70-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:47:9-49:18
+71            <action android:name="android.support.customtabs.action.CustomTabsService" />
+71-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:48:13-90
+71-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:48:21-87
+72        </intent>
+73    </queries>
+74
+75    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+75-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:27:5-82
+75-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:27:22-79
+76    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+76-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:28:5-88
+76-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:28:22-85
+77    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+77-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:29:5-83
+77-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:29:22-80
+78    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+78-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+78-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+79
+80    <permission
+80-->[androidx.core:core:1.13.0] C:\Users\aqi65\.gradle\caches\transforms-4\be1471e92c2482fb01897a359db912e9\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+81        android:name="dev.lucasnlm.antimine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+81-->[androidx.core:core:1.13.0] C:\Users\aqi65\.gradle\caches\transforms-4\be1471e92c2482fb01897a359db912e9\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+82        android:protectionLevel="signature" />
+82-->[androidx.core:core:1.13.0] C:\Users\aqi65\.gradle\caches\transforms-4\be1471e92c2482fb01897a359db912e9\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+83
+84    <application
+84-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:35:5-135:19
+85        android:name="dev.lucasnlm.antimine.MainApplication"
+85-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:36:9-61
+86        android:allowBackup="true"
+86-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:37:9-35
+87        android:allowClearUserData="true"
+87-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:38:9-42
+88        android:appCategory="game"
+88-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:45:9-35
+89        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+89-->[androidx.core:core:1.13.0] C:\Users\aqi65\.gradle\caches\transforms-4\be1471e92c2482fb01897a359db912e9\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+90        android:dataExtractionRules="@xml/data_extraction_rules"
+90-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:39:9-65
+91        android:debuggable="true"
+92        android:description="@string/app_description"
+92-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:40:9-54
+93        android:extractNativeLibs="true"
+94        android:fullBackupContent="@xml/backup"
+94-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:41:9-48
+95        android:hardwareAccelerated="true"
+95-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:42:9-43
+96        android:icon="@mipmap/ic_launcher"
+96-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:43:9-43
+97        android:isGame="true"
+97-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:44:9-30
+98        android:label="@string/app_name"
+98-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:46:9-41
+99        android:localeConfig="@xml/locales_config"
+99-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:47:9-51
+100        android:roundIcon="@mipmap/ic_launcher_round"
+100-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:48:9-54
+101        android:supportsRtl="true"
+101-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:49:9-35
+102        android:testOnly="true"
+103        android:theme="@style/AppTheme" >
+103-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:50:9-40
+104        <service
+104-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:53:9-60:19
+105            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+105-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:54:13-82
+106            android:enabled="false"
+106-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:55:13-36
+107            android:exported="false" >
+107-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:56:13-37
+108            <meta-data
+108-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:57:13-59:40
+109                android:name="autoStoreLocales"
+109-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:58:17-48
+110                android:value="true" />
+110-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:59:17-37
+111        </service>
+112
+113        <uses-library
+113-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:62:9-64:40
+114            android:name="org.apache.http.legacy"
+114-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:63:13-50
+115            android:required="false" />
+115-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:64:13-37
+116
+117        <activity
+117-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:66:9-83:20
+118            android:name="dev.lucasnlm.antimine.GameActivity"
+118-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:67:13-62
+119            android:exported="true"
+119-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:73:13-36
+120            android:icon="@mipmap/ic_launcher"
+120-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:68:13-47
+121            android:launchMode="singleTask"
+121-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:69:13-44
+122            android:parentActivityName="dev.lucasnlm.antimine.main.MainActivity"
+122-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:70:13-60
+123            android:roundIcon="@mipmap/ic_launcher_round"
+123-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:71:13-58
+124            android:saveEnabled="false"
+124-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:72:13-40
+125            android:theme="@style/AppTheme" >
+125-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:74:13-44
+126            <intent-filter>
+126-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:75:13-82:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:76:17-69
+127-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:76:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:77:17-76
+129-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:77:27-73
+130
+131                <data
+131-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:78:17-81:49
+132                    android:host="antimine"
+132-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:80:21-44
+133                    android:pathPrefix="/game"
+133-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:81:21-47
+134                    android:scheme="app" />
+134-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:79:21-41
+135            </intent-filter>
+136        </activity>
+137        <activity
+137-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:85:9-103:20
+138            android:name="dev.lucasnlm.antimine.main.MainActivity"
+138-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:86:13-46
+139            android:exported="true"
+139-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:87:13-36
+140            android:icon="@mipmap/ic_launcher"
+140-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:88:13-47
+141            android:launchMode="singleTop"
+141-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:89:13-43
+142            android:roundIcon="@mipmap/ic_launcher_round"
+142-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:90:13-58
+143            android:saveEnabled="false"
+143-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:91:13-40
+144            android:theme="@style/AppTheme" >
+144-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:92:13-44
+145            <intent-filter>
+145-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:99:13-102:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:100:17-69
+146-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:100:25-66
+147
+148                <category android:name="android.intent.category.LAUNCHER" />
+148-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:101:17-77
+148-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:101:27-74
+149            </intent-filter>
+150        </activity>
+151        <activity
+151-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:105:9-108:47
+152            android:name="dev.lucasnlm.antimine.stats.StatsActivity"
+152-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:106:13-69
+153            android:label="@string/events"
+153-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:107:13-43
+154            android:theme="@style/AppTheme" />
+154-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:108:13-44
+155        <activity
+155-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:110:9-112:54
+156            android:name="dev.lucasnlm.antimine.history.HistoryActivity"
+156-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:111:13-73
+157            android:label="@string/previous_games" />
+157-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:112:13-51
+158        <activity
+158-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:114:9-116:48
+159            android:name="dev.lucasnlm.antimine.l10n.LocalizationActivity"
+159-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:115:13-75
+160            android:label="@string/language" />
+160-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:116:13-45
+161        <activity
+161-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:118:9-120:48
+162            android:name="dev.lucasnlm.antimine.preferences.PreferencesActivity"
+162-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:119:13-81
+163            android:label="@string/settings" />
+163-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:120:13-45
+164
+165        <meta-data
+165-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:122:9-123:58
+166            android:name="com.android.automotive"
+166-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:122:20-57
+167            android:resource="@xml/automotive_app_desc" />
+167-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:123:13-56
+168
+169        <provider
+170            android:name="androidx.core.content.FileProvider"
+170-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:126:13-62
+171            android:authorities="dev.lucasnlm.antimine.provider"
+171-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:127:13-60
+172            android:exported="false"
+172-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:128:13-37
+173            android:grantUriPermissions="true" >
+173-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:129:13-47
+174            <meta-data
+174-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:131:13-133:54
+175                android:name="android.support.FILE_PROVIDER_PATHS"
+175-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:132:17-67
+176                android:resource="@xml/file_paths" />
+176-->C:\Users\aqi65\StudioProjects\antimine-android\app\src\main\AndroidManifest.xml:133:17-51
+177        </provider>
+178
+179        <meta-data
+179-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:9-16:43
+180            android:name="com.bugsnag.android.API_KEY"
+180-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-55
+181            android:value="BUGSNAP-KEY" />
+181-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-40
+182        <meta-data
+182-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:9-19:46
+183            android:name="com.google.android.gms.games.APP_ID"
+183-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-63
+184            android:value="@string/app_id" />
+184-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-43
+185        <meta-data
+185-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:9-22:69
+186            android:name="com.google.android.gms.version"
+186-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-66
+188        <meta-data
+188-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:9-25:70
+189            android:name="com.google.android.gms.ads.APPLICATION_ID"
+189-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-69
+190            android:value="ca-app-pub-3940256099942544~3347511713" />
+190-->[:proprietary] C:\Users\aqi65\StudioProjects\antimine-android\proprietary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:13-67
+191
+192        <activity
+192-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:47
+193            android:name="dev.lucasnlm.antimine.about.AboutActivity"
+193-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-69
+194            android:label="@string/about"
+194-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-42
+195            android:theme="@style/AppTheme" />
+195-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-44
+196        <activity
+196-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-15:47
+197            android:name="dev.lucasnlm.antimine.licenses.LicenseActivity"
+197-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-74
+198            android:label="@string/licenses"
+198-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-45
+199            android:theme="@style/AppTheme" />
+199-->[:about] C:\Users\aqi65\StudioProjects\antimine-android\about\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-44
+200        <activity
+200-->[:themes] C:\Users\aqi65\StudioProjects\antimine-android\themes\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:47
+201            android:name="dev.lucasnlm.antimine.themes.ThemeActivity"
+201-->[:themes] C:\Users\aqi65\StudioProjects\antimine-android\themes\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-70
+202            android:label="@string/themes"
+202-->[:themes] C:\Users\aqi65\StudioProjects\antimine-android\themes\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-43
+203            android:theme="@style/AppTheme" />
+203-->[:themes] C:\Users\aqi65\StudioProjects\antimine-android\themes\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-44
+204        <activity
+204-->[:tutorial] C:\Users\aqi65\StudioProjects\antimine-android\tutorial\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:47
+205            android:name="dev.lucasnlm.antimine.tutorial.TutorialActivity"
+205-->[:tutorial] C:\Users\aqi65\StudioProjects\antimine-android\tutorial\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-75
+206            android:label="@string/themes"
+206-->[:tutorial] C:\Users\aqi65\StudioProjects\antimine-android\tutorial\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-43
+207            android:theme="@style/AppTheme" />
+207-->[:tutorial] C:\Users\aqi65\StudioProjects\antimine-android\tutorial\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-44
+208        <activity android:name="dev.lucasnlm.antimine.control.ControlActivity" />
+208-->[:control] C:\Users\aqi65\StudioProjects\antimine-android\control\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-82
+208-->[:control] C:\Users\aqi65\StudioProjects\antimine-android\control\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:19-79
+209        <activity
+209-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
+210            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+210-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
+211            android:excludeFromRecents="true"
+211-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
+214        <!--
+215            Service handling Google Sign-In user revocation. For apps that do not integrate with
+216            Google Sign-In, this service will never be started.
+217        -->
+218        <service
+218-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
+219            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+219-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
+220            android:exported="true"
+220-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
+221            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+221-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
+222            android:visibleToInstantApps="true" />
+222-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\6fb2a6210093131af693695f6e9cb236\transformed\play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
+223
+224        <meta-data
+224-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:19:9-21:37
+225            android:name="com.google.android.play.billingclient.version"
+225-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:20:13-73
+226            android:value="7.0.0" />
+226-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:21:13-34
+227
+228        <activity
+228-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:23:9-27:75
+229            android:name="com.android.billingclient.api.ProxyBillingActivity"
+229-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:24:13-78
+230            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+230-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:25:13-96
+231            android:exported="false"
+231-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:26:13-37
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+232-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:27:13-72
+233        <activity
+233-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:28:9-32:75
+234            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+234-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:29:13-80
+235            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+235-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:30:13-96
+236            android:exported="false"
+236-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:31:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.android.billingclient:billing:7.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\bc44d8a73dc255a147561a94b374a244\transformed\billing-7.0.0\AndroidManifest.xml:32:13-72
+238        <activity
+238-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\aqi65\.gradle\caches\transforms-4\c2f23338ece981458e6a6677e084cba6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+239            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+239-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\aqi65\.gradle\caches\transforms-4\c2f23338ece981458e6a6677e084cba6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\aqi65\.gradle\caches\transforms-4\c2f23338ece981458e6a6677e084cba6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+241            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+241-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\aqi65\.gradle\caches\transforms-4\c2f23338ece981458e6a6677e084cba6\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+242
+243        <provider
+243-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+244            android:name="androidx.startup.InitializationProvider"
+244-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+245            android:authorities="dev.lucasnlm.antimine.androidx-startup"
+245-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+246            android:exported="false" >
+246-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+247            <meta-data
+247-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+248                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+248-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+249                android:value="androidx.startup" />
+249-->[androidx.emoji2:emoji2:1.3.0] C:\Users\aqi65\.gradle\caches\transforms-4\af64971a69d2d9ed9ae0560857eed295\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+250            <meta-data
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+251                android:name="androidx.work.WorkManagerInitializer"
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+252                android:value="androidx.startup" />
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\aqi65\.gradle\caches\transforms-4\cbd939f7ff7786f1652cac9f2dae7eae\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\aqi65\.gradle\caches\transforms-4\cbd939f7ff7786f1652cac9f2dae7eae\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\aqi65\.gradle\caches\transforms-4\cbd939f7ff7786f1652cac9f2dae7eae\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+258                android:value="androidx.startup" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+259        </provider>
+260
+261        <uses-library
+261-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\aqi65\.gradle\caches\transforms-4\00dc860e605e59e0123dc96a6bcdac26\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+262            android:name="android.ext.adservices"
+262-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\aqi65\.gradle\caches\transforms-4\00dc860e605e59e0123dc96a6bcdac26\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+263            android:required="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+263-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\aqi65\.gradle\caches\transforms-4\00dc860e605e59e0123dc96a6bcdac26\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+264        <activity
+264-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:56:9-61:43
+265            android:name="com.google.android.gms.ads.AdActivity"
+265-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:57:13-65
+266            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+266-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:58:13-122
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:59:13-37
+268            android:theme="@android:style/Theme.Translucent" />
+268-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:60:13-61
+269
+270        <provider
+270-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:63:9-68:43
+271            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+271-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:64:13-76
+272            android:authorities="dev.lucasnlm.antimine.mobileadsinitprovider"
+272-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:65:13-73
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:66:13-37
+274            android:initOrder="100" />
+274-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:67:13-36
+275
+276        <service
+276-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:70:9-74:43
+277            android:name="com.google.android.gms.ads.AdService"
+277-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:71:13-64
+278            android:enabled="true"
+278-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:72:13-35
+279            android:exported="false" />
+279-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:73:13-37
+280
+281        <activity
+281-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:76:9-80:43
+282            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+282-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:77:13-82
+283            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+283-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:78:13-122
+284            android:exported="false" />
+284-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:79:13-37
+285        <activity
+285-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:81:9-88:43
+286            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+286-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:82:13-82
+287            android:excludeFromRecents="true"
+287-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:83:13-46
+288            android:exported="false"
+288-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:84:13-37
+289            android:launchMode="singleTask"
+289-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:85:13-44
+290            android:taskAffinity=""
+290-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:86:13-36
+291            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+291-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:87:13-72
+292
+293        <property
+293-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:90:9-92:62
+294            android:name="android.adservices.AD_SERVICES_CONFIG"
+294-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:91:13-65
+295            android:resource="@xml/gma_ad_services_config" />
+295-->[com.google.android.gms:play-services-ads-lite:23.2.0] C:\Users\aqi65\.gradle\caches\transforms-4\22ef90ac85fc7107896e7767de6d3cad\transformed\play-services-ads-lite-23.2.0\AndroidManifest.xml:92:13-59
+296
+297        <service
+297-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+298            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+298-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+300            android:enabled="@bool/enable_system_alarm_service_default"
+300-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+301            android:exported="false" />
+301-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+302        <service
+302-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+303            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+303-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+305            android:enabled="@bool/enable_system_job_service_default"
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+306            android:exported="true"
+306-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+307            android:permission="android.permission.BIND_JOB_SERVICE" />
+307-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+308        <service
+308-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+309            android:name="androidx.work.impl.foreground.SystemForegroundService"
+309-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+311            android:enabled="@bool/enable_system_foreground_service_default"
+311-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+313
+314        <receiver
+314-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+315            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+315-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+316            android:directBootAware="false"
+316-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+317            android:enabled="true"
+317-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+318            android:exported="false" />
+318-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+319        <receiver
+319-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+320            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+320-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+322            android:enabled="false"
+322-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+323            android:exported="false" >
+323-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+325                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+325-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+325-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+326                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+326-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+326-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+330            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+330-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+332            android:enabled="false"
+332-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+333            android:exported="false" >
+333-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+334            <intent-filter>
+334-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+335                <action android:name="android.intent.action.BATTERY_OKAY" />
+335-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+335-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+336                <action android:name="android.intent.action.BATTERY_LOW" />
+336-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+336-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+337            </intent-filter>
+338        </receiver>
+339        <receiver
+339-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+340            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+340-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+341            android:directBootAware="false"
+341-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+342            android:enabled="false"
+342-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+343            android:exported="false" >
+343-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+344            <intent-filter>
+344-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+345                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+345-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+345-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+346                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+346-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+346-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+347            </intent-filter>
+348        </receiver>
+349        <receiver
+349-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+350            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+350-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+351            android:directBootAware="false"
+351-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+352            android:enabled="false"
+352-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+353            android:exported="false" >
+353-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+354            <intent-filter>
+354-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+355                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+355-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+355-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+356            </intent-filter>
+357        </receiver>
+358        <receiver
+358-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+359            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+359-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+361            android:enabled="false"
+361-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+362            android:exported="false" >
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+363            <intent-filter>
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+364                <action android:name="android.intent.action.BOOT_COMPLETED" />
+364-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+364-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+365                <action android:name="android.intent.action.TIME_SET" />
+365-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+365-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+366                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+366-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+366-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+367            </intent-filter>
+368        </receiver>
+369        <receiver
+369-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+370            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+370-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+371            android:directBootAware="false"
+371-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+372            android:enabled="@bool/enable_system_alarm_service_default"
+372-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+373            android:exported="false" >
+373-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+374            <intent-filter>
+374-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+375                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+375-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+375-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+376            </intent-filter>
+377        </receiver>
+378        <receiver
+378-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+379            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+379-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+380            android:directBootAware="false"
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+381            android:enabled="true"
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+382            android:exported="true"
+382-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+383            android:permission="android.permission.DUMP" >
+383-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+384            <intent-filter>
+384-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+385                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+385-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+385-->[androidx.work:work-runtime:2.7.0] C:\Users\aqi65\.gradle\caches\transforms-4\7d9e349453c5ab15a18066ae3c0ef521\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+386            </intent-filter>
+387        </receiver>
+388
+389        <uses-library
+389-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+390            android:name="androidx.window.extensions"
+390-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+391            android:required="false" />
+391-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+392        <uses-library
+392-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+393            android:name="androidx.window.sidecar"
+393-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+394            android:required="false" />
+394-->[androidx.window:window:1.0.0] C:\Users\aqi65\.gradle\caches\transforms-4\850b87efebbff52b2b84d03df19fab7a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+395
+396        <receiver
+396-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+397            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+397-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+398            android:directBootAware="false"
+398-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+399            android:enabled="true"
+399-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+400            android:exported="true"
+400-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+401            android:permission="android.permission.DUMP" >
+401-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+402            <intent-filter>
+402-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+403                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+404            </intent-filter>
+405            <intent-filter>
+405-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+406                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+407            </intent-filter>
+408            <intent-filter>
+408-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+409                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+410            </intent-filter>
+411            <intent-filter>
+411-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+412                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+412-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+412-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\aqi65\.gradle\caches\transforms-4\4640fdbbe38e924c41daea9fc35b804a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+413            </intent-filter>
+414        </receiver>
+415
+416        <service
+416-->[androidx.room:room-runtime:2.2.5] C:\Users\aqi65\.gradle\caches\transforms-4\46510de3fb708200313b6795da45b97d\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+417            android:name="androidx.room.MultiInstanceInvalidationService"
+417-->[androidx.room:room-runtime:2.2.5] C:\Users\aqi65\.gradle\caches\transforms-4\46510de3fb708200313b6795da45b97d\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+418            android:directBootAware="true"
+418-->[androidx.room:room-runtime:2.2.5] C:\Users\aqi65\.gradle\caches\transforms-4\46510de3fb708200313b6795da45b97d\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+419            android:exported="false" />
+419-->[androidx.room:room-runtime:2.2.5] C:\Users\aqi65\.gradle\caches\transforms-4\46510de3fb708200313b6795da45b97d\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+420        <service
+420-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+421            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+421-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+422            android:exported="false" >
+422-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+423            <meta-data
+423-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+424                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+424-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+425                android:value="cct" />
+425-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\bcb5f67d32ee02f2d1957f08be86fabb\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+426        </service>
+427        <service
+427-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+428            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+428-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+429            android:exported="false"
+429-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+430            android:permission="android.permission.BIND_JOB_SERVICE" >
+430-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+431        </service>
+432
+433        <receiver
+433-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+434            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+434-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+435            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+435-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aqi65\.gradle\caches\transforms-4\a26c00ae4bc570b3adeec1dfefb5ea58\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+436        <activity
+436-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:5-271
+437            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+437-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:15-102
+438            android:enabled="false"
+438-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:103-126
+439            android:exported="false"
+439-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:127-151
+440            android:launchMode="singleInstance"
+440-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:204-239
+441            android:process=":playcore_missing_splits_activity"
+441-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:152-203
+442            android:stateNotNeeded="true" />
+442-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:12:240-269
+443        <activity
+443-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:5-226
+444            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+444-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:15-95
+445            android:enabled="false"
+445-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:96-119
+446            android:exported="false"
+446-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:120-144
+447            android:stateNotNeeded="true"
+447-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:145-174
+448            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+448-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:13:175-224
+449        <service
+449-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:16:5-145
+450            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+450-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:16:14-95
+451            android:enabled="false"
+451-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:16:96-119
+452            android:exported="true" />
+452-->[com.google.android.play:core:1.8.0] C:\Users\aqi65\.gradle\caches\transforms-4\d93fa599c12b3c33a1902786ac6cde80\transformed\core-1.8.0\AndroidManifest.xml:16:120-143
+453    </application>
+454
+455</manifest>
